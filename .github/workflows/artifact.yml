@@ -21,7 +21,7 @@ jobs:
 
   download:
     needs: build
-    runs-on: buntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Download text file
       uses: actions/download-artifact@v4
